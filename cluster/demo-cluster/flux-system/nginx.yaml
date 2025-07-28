@@ -9,6 +9,7 @@ spec:
     kind: GitRepository
     name: flux
   path: ./cluster/demo-cluster
+  prune: true
   interval: 5m
   replicas: 1
   selector:
