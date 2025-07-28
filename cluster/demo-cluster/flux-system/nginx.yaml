@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: default
+  namespace: flux-system
 spec:
-  targetNamespace: default
+  targetNamespace: flux-system
   sourceRef:
     kind: GitRepository
     name: flux
