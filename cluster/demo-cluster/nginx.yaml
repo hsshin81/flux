@@ -8,7 +8,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux
-  path: ./deploy/nginx
+  path: ./cluster/demo-cluster
   interval: 5m
   replicas: 2
   selector:
