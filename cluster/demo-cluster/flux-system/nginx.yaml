@@ -10,7 +10,7 @@ spec:
     name: flux
   path: ./cluster/demo-cluster
   interval: 5m
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
