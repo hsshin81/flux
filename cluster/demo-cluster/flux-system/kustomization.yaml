@@ -5,3 +5,4 @@ resources:
 - gotk-sync.yaml
 - nginx.yaml
 - nginx-service.yaml
+- nginx-ingress.yaml
